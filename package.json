@@ -1,0 +1,31 @@
+{
+  "name": "@shpaw415/security",
+  "version": "0.0.1",
+  "description": "server & client function for security (sanitize, password-management, ...)",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shpaw415/js-security.git"
+  },
+  "keywords": [
+    "server-security",
+    "client-security",
+    "security"
+  ],
+  "author": "justin halle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shpaw415/js-security/issues"
+  },
+  "dependencies": {
+    "bcrypt": "5.1.1"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "5.0.2",
+    "typescript": "^5.3.3"
+  },
+  "homepage": "https://github.com/shpaw415/js-security#readme"
+}
