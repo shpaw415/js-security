@@ -1,11 +1,12 @@
 {
   "name": "@shpaw415/security",
-  "version": "0.0.2",
+  "version": "0.1.2",
+  "private": false,
   "description": "server & client function for security (sanitize, password-management, ...)",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "test": ""
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -28,5 +29,10 @@
     "@types/bcrypt": "5.0.2",
     "typescript": "^5.3.3"
   },
+  "files": [
+    "/dist",
+    "package.json",
+    "README.md"
+  ],
   "homepage": "https://github.com/shpaw415/js-security#readme"
 }
